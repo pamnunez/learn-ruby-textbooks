@@ -1,0 +1,14 @@
+def is_prime?(num)
+	i = 2
+	loop do 
+		if num % i == 0 
+			return false
+		else
+			i = i + 1
+		end
+	end
+	return true
+end
+
+puts is_prime?(8)
+puts is_prime?(7)
